@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SASIYA PHOTO EDIT WEB</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">SASIYA PHOTO EDIT WEB</h1>
+    <div class="editor">
+      <input type="file" id="upload" accept="image/*" />
+      <canvas id="canvas"></canvas>
+      <div class="controls">
+        <button onclick="applyBlur()">Blur</button>
+        <button onclick="applyGrayscale()">Grayscale</button>
+        <button onclick="applyBrightness()">Brightness</button>
+        <button onclick="applyContrast()">Contrast</button>
+        <button onclick="applySepia()">Sepia</button>
+        <button onclick="applyInvert()">Invert</button>
+        <button onclick="resetImage()">Reset</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
